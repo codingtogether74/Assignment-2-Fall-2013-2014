@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4A2D23118261314004D613E"
-               BuildableName = "Matchismo.app"
-               BlueprintName = "Matchismo"
-               ReferencedContainer = "container:Matchismo.xcodeproj">
+               BuildableName = "Matchismo2.app"
+               BlueprintName = "Matchismo2"
+               ReferencedContainer = "container:Matchismo2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4A2D25218261314004D613E"
-               BuildableName = "MatchismoTests.xctest"
-               BlueprintName = "MatchismoTests"
-               ReferencedContainer = "container:Matchismo.xcodeproj">
+               BuildableName = "Matchismo2Tests.xctest"
+               BlueprintName = "Matchismo2Tests"
+               ReferencedContainer = "container:Matchismo2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4A2D23118261314004D613E"
-            BuildableName = "Matchismo.app"
-            BlueprintName = "Matchismo"
-            ReferencedContainer = "container:Matchismo.xcodeproj">
+            BuildableName = "Matchismo2.app"
+            BlueprintName = "Matchismo2"
+            ReferencedContainer = "container:Matchismo2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4A2D23118261314004D613E"
-            BuildableName = "Matchismo.app"
-            BlueprintName = "Matchismo"
-            ReferencedContainer = "container:Matchismo.xcodeproj">
+            BuildableName = "Matchismo2.app"
+            BlueprintName = "Matchismo2"
+            ReferencedContainer = "container:Matchismo2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4A2D23118261314004D613E"
-            BuildableName = "Matchismo.app"
-            BlueprintName = "Matchismo"
-            ReferencedContainer = "container:Matchismo.xcodeproj">
+            BuildableName = "Matchismo2.app"
+            BlueprintName = "Matchismo2"
+            ReferencedContainer = "container:Matchismo2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

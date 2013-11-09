@@ -10,6 +10,45 @@
 
 @implementation PlayingCard
 
+-(int)match:(NSArray *)otherCards
+{
+    int score =0;
+    int numMatches = 0;
+    if ([otherCards count] > 0)
+    {
+        for (int i = 0; i < [otherCards count]; i++) {
+            id otherCard1 = otherCards[i];
+            if ([otherCard1 isKindOfClass:[PlayingCard class]])
+            {
+                PlayingCard *card1 = (PlayingCard *)otherCard1;
+                
+                for (int j = i+1; j < [otherCards count]; j++) {
+                    id otherCard2 =otherCards[j];
+                    if ([otherCard2 isKindOfClass:[PlayingCard class]])
+                    {
+                        PlayingCard *card2 =(PlayingCard *)otherCard2;
+                         // check for the same suit
+                        if ([card1.suit isEqualToString:card2.suit]) {
+                            score += 1;
+                            numMatches++;
+                        }
+                        // check for the same rank
+                        if (card1.rank == card2.rank) {
+                            score += 4;
+                            numMatches++;
+                        }
+ //                       NSLog(@"i= %d j= %d card1 = %@ card2 = %@ NumMatches = %d",i,j,card1,card2,numMatches);
+ 
+                    }
+                }
+            }
+        }
+        
+        if (numMatches < [otherCards count] -1) score = 0;
+    }
+    return score;
+}
+
 
 - (NSString *)contents
 {
