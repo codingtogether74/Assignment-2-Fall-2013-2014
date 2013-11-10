@@ -3,8 +3,6 @@
 //  Matchismo
 //
 //  Created by Tatiana Kornilova on 11/7/13.
-//  Idea th show History of flips was taken from Joan Catalan
-// https://github.com/jcatalan007/Matchismo_hw2
 //  Copyright (c) 2013 Tatiana Kornilova. All rights reserved.
 //
 
