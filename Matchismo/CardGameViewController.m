@@ -86,8 +86,8 @@
 - (IBAction)takeHistory:(UISlider *)sender
 {
     int selectedIndex = (int) sender.value;
-    if (selectedIndex <0 || (selectedIndex > self.flipCount -1)) return;
-    self.resultsLabel.alpha = (selectedIndex < self.flipCount - 1) ? 0.5 : 1.0;
+    if (selectedIndex <0 || (selectedIndex > self.flipCount-1)) return;
+    self.resultsLabel.alpha = (selectedIndex < self.flipCount-1 ) ? 0.5 : 1.0;
     NSString *text = [NSString stringWithFormat:@"%d:",(selectedIndex+1)];
     self.resultsLabel.text = [text stringByAppendingString:[self.flipsHistory objectAtIndex:selectedIndex]];
 }
