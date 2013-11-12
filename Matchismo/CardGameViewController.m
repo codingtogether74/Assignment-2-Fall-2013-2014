@@ -83,6 +83,7 @@
     self.resultsLabel.alpha = 1.0;
     [self updateUI];
 }
+
 - (IBAction)takeHistory:(UISlider *)sender
 {
     int selectedIndex = (int) sender.value;
